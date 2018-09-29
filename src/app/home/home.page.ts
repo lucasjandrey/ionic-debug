@@ -5,4 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss']
 })
-export class HomePage {}
+export class HomePage {
+
+  title = 'Home Title';
+
+  constructor() {
+    console.log(this.title);
+  }
+
+}
